@@ -1,0 +1,73 @@
+/* Full tags styles */
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+fieldset{
+    margin: 2em 0;
+    padding: 1em 2em;
+    border: solid 1px #000000;
+    border-radius: 7px;
+    min-width: 200xp;
+    max-width: 400px;
+}
+
+legend{
+    font-size: 1.25em;
+    padding: 0 .25em;
+    color: #000000; 
+}
+
+label{
+    display: block;
+    margin-top: 1em;
+}
+
+label:first-of-type{
+    margin-top: 0;
+}
+
+input{
+    padding: .5em;
+    border: solid 1px #999;
+    border-radius: 5px;
+}
+
+textarea{
+    min-height: 8em;
+    min-width: 100%;
+    padding: .5em;
+    border: solid 1px #999;
+    border-radius: 5px;
+}
+
+button{
+    padding: .5em 1em;
+    border-radius: 6px;
+    background-color: #333;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: .8em;
+}
+
+/* Class styles */
+
+.progress-bar{
+    width: 70%;
+    background-color: rgb(42, 4, 62);
+    border-radius: 25px;
+    height: 30px;
+}
+
+.progress{
+    width: 40%;
+    height: 30px;
+    background-color: rgb(161, 67, 249);
+    border-radius: 25px;
+}
+
+/* Id styles */
+
+
+

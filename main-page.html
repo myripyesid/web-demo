@@ -3,9 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main-style.css">
     <title>Main page</title>
 </head>
+    <section id="welcome">
+        <h1>Welcome! ¿Interested in something?</h1>
+        <button>See CV</button>
+        <button>See Github profile</button>
+        <button>See future projects</button>
+    </section>
+
+    <section id="skills">
+        <h3>HTML</h3>
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+
+        <h3>CSS</h3>
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+        
+        <h3>Proof Writting</h3>
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+
+    </section>
+
+    <section id="comunication-form">
+        <form id="form1" action="#" method="GET">
+
+            <fieldset>
+
+                <legend>Contact Me</legend>
+
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="Email">Email: </label>
+                <input type="text" id="email" name="email" required>
+                
+                <label for="message">Message: </label>
+                <textarea name="msg" id="msg"></textarea>
+            
+                <button type="submit">Submit</button>
+
+            </fieldset>
+        </form>
+    </section>
+
 <body>
     
 </body>
+
 </html>
